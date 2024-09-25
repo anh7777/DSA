@@ -1,0 +1,21 @@
+Bài tập lập trình đếm tần suất của từ trong văn bản
+ Due date: Monday, 18 July 2022, 12:51 PM
+ Requested files: ListInterface.java, SimpleArrayList.java, WordCount.java, MainTest.java ( Download)
+Type of work:  Individual work
+Đếm số lần 1 từ xuất hiện trong văn bản theo đề bài đã cho trong file bài tập.
+
+- Văn bản là 1 dòng text được nhập từ bàn phím, kết quả được sắp xếp theo thứ tự giảm dần của tần suất xuất hiện của các từ. Ví dụ:
+
+Text: tôi là ai bạn là tôi là ai là bạn là tôi là bạn ai
+
+Kết quả là:
+
+[là; 6]
+
+[tôi; 3]
+
+[ai; 3]
+
+[bạn; 3]
+
+- Chú ý kết quả in đúng định dạng như trên. [word; count]

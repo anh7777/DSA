@@ -1,0 +1,24 @@
+Bài tập tính giá trị biểu thức đầy đủ dấu ngoặc
+ Due date: Monday, 18 July 2022, 12:50 PM
+ Requested files: StackInterface.java, LinkedListStack.java, FormulaEval.java ( Download)
+Type of work:  Individual work
+Viết chương trình tính giá trị biểu thức đầy đủ dấu ngoặc sử dụng cấu trúc dữ liệu ngăn xếp (Stack).
+
++ Hoàn thành các phương thức trong file LinkedListStack.java
+
++ Hoàn thành phương thức eval(String formula) trong file FormulaEval.java thực hiện tính giá trị biểu thức là xâu đầu vào formula. Sinh viên có thể thêm các phương thức khác trong file này nếu cần.
+
+- Input: một biểu thức đầy đủ dấu ngoặc, các thành phần trong biểu thức được phân cách nhau bởi 1 dấu cách.
+
+--- Ví dụ: ( ( 50 - ( ( 8 - 4 ) * ( 2 + 3 ) ) ) + ( 3 * 4 ) )
+
+--> Dùng phương thức split() của String để tách ra các phần tử trong biểu thức
+
+- Ouput: giá trị của biểu thức input.
+
+--> Gợi ý: sử dụng 2 stack, 1 stack lưu các toán hạng (các số), 1 stack lưu các toán tử (+, -, *, /...).
+
+--- Vì biểu thức là đầy đủ dấu ngoặc nên chúng ta không cần quan tâm đến dấu mở ngoặc, chỉ cần quan tâm đến dấu đóng ngoặc.
+
+--- Nếu gặp  1 dấu đóng ngoặc thực hiện : lấy 2 toán hạng và 1 toán tử rồi thực hiện phép tính, sau đó đưa kết quả trở lại stack lưu các toán hạng.
+
