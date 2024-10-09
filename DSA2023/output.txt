@@ -1,0 +1,3 @@
+    Hw5.Exercise1.LinkedBinaryTree$Node@6f496d9f
+Hw5.Exercise1.LinkedBinaryTree$Node@6f496d9f
+    Hw5.Exercise1.LinkedBinaryTree$Node@6f496d9f

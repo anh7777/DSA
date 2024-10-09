@@ -38,12 +38,12 @@ public class OccurrenceInLinkedList {
         head.next.next.next.next.next.next = list.new Node(1);
 
         int key = 1;
-        System.out.println("The occurrences of " + key + " in the linked list: " + list.countOccurrences(head, key)); // Output: 4
+        System.out.println("The occurrences of " + key + " in the linked list: " + list.countOccurrences(head, key));
 
         key = 3;
-        System.out.println("The occurrences of " + key + " in the linked list: " + list.countOccurrences(head, key)); // Output: 1
+        System.out.println("The occurrences of " + key + " in the linked list: " + list.countOccurrences(head, key));
 
         key = 5;
-        System.out.println("The occurrences of " + key + " in the linked list: " + list.countOccurrences(head, key)); // Output: 0
+        System.out.println("The occurrences of " + key + " in the linked list: " + list.countOccurrences(head, key));
     }
 }

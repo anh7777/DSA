@@ -1,0 +1,13 @@
+Bài tập 1. Trả lời câu hỏi kèm theo đoạn code sau:
+Cho một stack rỗng s. Giả sử chuỗi họ và tên của bạn viết liền không dấu là hoten. Sau một loạt các thao
+tác sau, kết quả cuối cùng của stack là bao nhiêu?
+
+1 for ( int i = 0; i < hoten . length () ; i ++) {
+2 if( i % 2 == 0) {
+3 s . push ( hoten . charAt ( i ) ) ;
+4 }
+5 if( i % 3 == 0) {
+6 s . pop () ;
+7 }
+8 }
+Kết quả cuối cùng: stack = {'n'}

@@ -36,13 +36,11 @@ public class NaiveApproach {
     public static void main(String[] args) {
         NaiveApproach list = new NaiveApproach();
 
-        // Create a hard-coded linked list: 35 -> 15 -> 4 -> 20
         Node head = list.new Node(35);
         head.next = list.new Node(15);
         head.next.next = list.new Node(4);
         head.next.next.next = list.new Node(20);
 
-        // Function Call to find the 4th node from end
         System.out.println(list.findNthFromLast(head, 4));
     }
 }
